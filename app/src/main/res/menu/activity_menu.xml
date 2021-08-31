@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/download"
+        android:title="download"
+        app:showAsAction="always"
+        android:icon="@drawable/download_img">
+    </item>
+
+    <item
+        android:id="@+id/print"
+        android:title="print"
+        app:showAsAction="always"
+        android:icon="@drawable/print_img">
+    </item>
+
+    <item
+        android:title="option1"
+        android:id="@+id/option1"
+        android:visible="true">
+
+    </item>
+
+    <item
+        android:title="option2"
+        android:id="@+id/option2"
+        android:visible="true">
+    </item>
+
+    <item
+        android:title="option3"
+        android:id="@+id/option3"
+        android:visible="true">
+    </item>
+
+</menu>
